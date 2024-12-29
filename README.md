@@ -8,14 +8,14 @@ This project is a simple system built using an **Arduino** and a **servo motor**
 - **Servo Motor**
 - **Photoresistors (LDRs)**
 - **Trombone Tuning Slide**
-- **3D Printed Gears and Components** (sourced from online repositories)
+- **3D Printed Gears and Components**
 - **Breadboard and Wires**
 - **Power Source (e.g., battery or USB)**
 
 ## Circuit Overview
 
-- **Flat Sensor**: A photoresistor (LDR) placed in the path of the tuner light. It detects whether the trombone is sharp (needs to move down) based on the light intensity.
-- **Sharp Sensor**: Another photoresistor placed near the tuner. It detects whether the trombone is flat (needs to move up).
+- **Flat Sensor**: A photoresistor (LDR) placed on the flat indicator light.
+- **Sharp Sensor**: Another photoresistor placed on the sharp indicator light.
 - **Servo**: Controls the movement of the 3D printed gears attached trombone tuning slide by adjusting its position based on the sensor readings.
 
 ## Code Explanation
