@@ -1,4 +1,4 @@
-# Trombone Tuning Slide Servo Controller
+# Auto Trombone Tuner
 
 This project is a simple system built using an **Arduino** and a **servo motor** to automatically adjust a trombone tuning slide based on light readings from a tuner. The light intensity detected by two **photoresistors** (Flat and Sharp) is used to adjust the position of the tuning slide. 
 
