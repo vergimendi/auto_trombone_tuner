@@ -2,7 +2,7 @@
 
 This project is a simple system built using an **Arduino** and a **servo motor** to automatically adjust a trombone tuning slide based on light readings from a tuner. The light intensity detected by two **photoresistors** (Flat and Sharp) is used to adjust the position of the tuning slide. 
 
-## Components Used
+## Components
 
 - **Arduino (Uno or similar)**
 - **Servo Motor**
@@ -18,7 +18,7 @@ This project is a simple system built using an **Arduino** and a **servo motor**
 - **Sharp Sensor**: Another photoresistor placed on the sharp indicator light.
 - **Servo**: Controls the movement of the 3D printed gears attached trombone tuning slide by adjusting its position based on the sensor readings.
 
-## Code Explanation
+## Code
 
 The following Arduino code reads values from two photoresistors (`Flat` and `Sharp`). If the light intensity from the tuner exceeds a specified threshold, the servo adjusts the position of the trombone tuning slide accordingly.
 
