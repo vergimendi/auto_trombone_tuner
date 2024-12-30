@@ -69,3 +69,18 @@ void loop(){
   myservo.write(pos);
   delay(50);
 }
+```
+
+## Instructions
+1. Plug in your Arduino microcontroller into your computer.
+2. Attach the photoresistors to the indicator lights on your tuner (Use hot glue, tape, etc.).
+3. Attach your photresistors to A0 (Flat) and A3 (Sharp) respectively and also ground.
+4. Attach your servo to the 5V line on your breadboard and also ground. Connect its serial connection to pin 3 on the Arduino.
+5. Compile and run the code on Arduino IDE.
+6. Ensure that the Arduino is moving the servo correctly.
+7. Attach the servo to the 3-D printed mechanism attached to the trombone tuner slide.
+8. If working as intended then power the whole system using a 5V battery module.
+
+## Notes
+- I don't have the files for the 3-D mechanism anymore, but there are similar models on Thingiverse, etc.
+
